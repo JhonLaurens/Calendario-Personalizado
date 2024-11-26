@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Personalizado</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Calendario</h1>
+        <div class="calendar">
+            <div class="header">
+                <div class="calendar-nav">
+                    <select id="year" aria-label="Seleccionar año"></select>
+                    <select id="month" aria-label="Seleccionar mes"></select>
+                </div>
+                <div id="day-container" class="selected-date"></div>
+            </div>
+            <div class="weekdays">
+                <div>Dom</div>
+                <div>Lun</div>
+                <div>Mar</div>
+                <div>Mié</div>
+                <div>Jue</div>
+                <div>Vie</div>
+                <div>Sáb</div>
+            </div>
+            <div id="days"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
